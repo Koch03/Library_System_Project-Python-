@@ -30,7 +30,7 @@ class Lib(Tk):
                     conn = mysql.connector.connect(host='localhost',
                                          database='library',
                                          user='root',
-                                         password='Kowtham18@')
+                                         password='###')
                     cursor = conn.cursor()
                     user = self.user_text.get()
                     password = self.pass_text.get()
